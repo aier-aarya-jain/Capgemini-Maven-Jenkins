@@ -25,13 +25,10 @@ import javax.swing.Timer;
 public class App extends JPanel implements ActionListener, KeyListener {
 
     // Screen size
-<<<<<<< HEAD
+
     static final int WIDTH = 200;
     static final int HEIGHT = 200;
-=======
-    static final int WIDTH = 500;
-    static final int HEIGHT = 500;
->>>>>>> b61ca5a6498e62232887474b6190951abe97909f
+
     static final int UNIT_SIZE = 25;
     static final int TOTAL_UNITS = (WIDTH * HEIGHT) / (UNIT_SIZE * UNIT_SIZE);
 
