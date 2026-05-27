@@ -1,10 +1,19 @@
 package Project1;
 
-
-import java.awt.*;
-import java.awt.event.*;
+import java.awt.Color;
+import java.awt.Dimension;
+import java.awt.Font;
+import java.awt.FontMetrics;
+import java.awt.Graphics;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
 import java.util.Random;
-import javax.swing.*;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.Timer;
 
 /**
  * Crazy Snake Game
@@ -12,8 +21,8 @@ import javax.swing.*;
 public class App extends JPanel implements ActionListener, KeyListener {
 
     // Screen size
-    static final int WIDTH = 600;
-    static final int HEIGHT = 600;
+    static final int WIDTH = 200;
+    static final int HEIGHT = 200;
     static final int UNIT_SIZE = 25;
     static final int TOTAL_UNITS = (WIDTH * HEIGHT) / (UNIT_SIZE * UNIT_SIZE);
 
